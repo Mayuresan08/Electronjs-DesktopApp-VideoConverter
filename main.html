@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body{
+            background: url("assests/jakob-owens-CiUR8zISX60-unsplash.jpg");
+            background-size: cover;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br/>
+        <h1 style="text-align: center;">Video Converter</h1>
+
+        <div id="project">
+            <br/>
+            <br/>
+            <button class="btn btn-block btn-danger" onclick="showForm()">Create New Project</button>
+        </div>
+
+
+        <div id="videoForm" style="display: none;">
+        <div class="form-group">
+            <label for="format">Choose .Mp4 file</label>
+        </div>
+        <button id="upload" class="btn btn-block btn-success">
+            Select file to convert
+        </button>
+        <div id="info"></div>
+    </div>
+</body>
+<script src="render.js"></script>
+</html>

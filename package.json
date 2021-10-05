@@ -1,0 +1,19 @@
+{
+  "name": "videoconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Mayuresan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "random-string": "^0.2.0"
+  }
+}
