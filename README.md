@@ -15,8 +15,5 @@ HLS Format Using applications:
 - Other online streaming platforms
 
 ### Working-Demo
-![videocoverterDemo_1](https://user-images.githubusercontent.com/87636548/135978278-a8a9ba42-d00a-481b-b977-76586e78e479.gif)
-
-
 https://user-images.githubusercontent.com/87636548/135978475-f91b33b2-6967-4ca3-8900-b62c81b24790.mp4
 
